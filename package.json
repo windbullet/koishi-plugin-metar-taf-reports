@@ -1,0 +1,22 @@
+{
+  "name": "koishi-plugin-metar-taf-reports",
+  "description": "通过机场四字代码（ICAO）获取METAR及TAF气象报文，数据来自efb.xflysim.com",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {},
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin"
+  ],
+  "devDependencies": {},
+  "peerDependencies": {
+    "koishi": "^4.18.8"
+  }
+}
