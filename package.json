@@ -1,6 +1,6 @@
 {
   "name": "koishi-plugin-metar-taf-reports",
-  "description": "通过机场四字代码（ICAO）获取METAR及TAF气象报文，数据来自efb.xflysim.com",
+  "description": "通过机场代码（ICAO或IATA）获取METAR及TAF气象报文，数据来自AVWX REST",
   "version": "0.0.1",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -9,13 +9,16 @@
     "dist"
   ],
   "license": "MIT",
-  "scripts": {},
+    "homepage": "https://github.com/windbullet/koishi-plugin-metar-taf-reports",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/windbullet/koishi-plugin-metar-taf-reports.git"
+  },
   "keywords": [
     "chatbot",
     "koishi",
     "plugin"
   ],
-  "devDependencies": {},
   "peerDependencies": {
     "koishi": "^4.18.8"
   }
